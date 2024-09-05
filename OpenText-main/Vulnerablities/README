@@ -1,0 +1,17 @@
+What the Script does?
+    * Scans Images for New CVEs based on Compute Console
+
+Notes:
+    * Onces the Scanning start each new iteration scanned will make a file.
+    * After 20 Interations it will combine New CVEs found into one file (this if for fialure purpose of the script)
+    * Once scanning is complete interations will be removed and everything will be on one file
+
+Setup:
+    Pull both configfile.ini and PullVulnerablitiliesHost.py down
+    Adjust the configfile.ini to have correct information
+        * URL
+        * Access Key
+        * Secret Key
+        * Twistlock URL
+    Run script
+    Scipt can be run locally or in Instance/VM/Container in the Environment.
